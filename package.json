@@ -1,0 +1,28 @@
+{
+  "name": "youtube-search-telegram-bot-hybrid",
+  "version": "2.0.0",
+  "description": "Powerful Hybrid YouTube Search Telegram Bot (Node.js + Python)",
+  "main": "bot_hybrid.js",
+  "scripts": {
+    "start": "node bot_hybrid.js",
+    "dev": "nodemon bot_hybrid.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "youtube",
+    "search",
+    "hybrid",
+    "nodejs",
+    "python"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
